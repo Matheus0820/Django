@@ -1,0 +1,35 @@
+{% extends 'pages/base.html' %}
+{% block alunos %}
+
+<div class="card mb-3">
+  	<img src="https://blogcarreiras.cruzeirodosuleducacional.edu.br/wp-content/uploads/2020/08/post_thumbnail-c73d20aac562bfebe7f731648faa9032.jpeg" class="card-img-top" style="filter: blur(6px); opacity: 90%;" alt="...">
+  	<div class="card-body">
+    	<h5 class="card-title">Plataforma de alunos</h5>
+    	<p class="card-text">Essa plataforma tem o objetivo de gerenciar os alunos, tal como outras coisas</p>
+  	</div>
+</div>
+
+
+<div class="card mb-3 text-center" style="width: 100%;"> 
+  <div class="card-body">
+    <h5 class="card-title">Painel de Administração</h5>
+  </div>
+  <table class="table table-striped text-center" style="width: 100%;">
+  <thead>
+    <tr>
+    	<th scope="col"></th>
+      	<th scope="col">Ações</th>
+      	<th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#" class="btn btn-outline-dark" role="button" aria-pressed="true">Listar</a></td>
+      <td><a href="#" class="btn btn-outline-dark" role="button" aria-pressed="true">Gerenciar</a></td>
+      <td><a href="#" class="btn btn-outline-dark" role="button" aria-pressed="true">Presenças</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+{% endblock%}
